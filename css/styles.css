@@ -27,7 +27,7 @@ ol {
   color: #2e2f42;
 }
 
-.header-menu-link {
+.menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -35,8 +35,8 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
@@ -44,19 +44,19 @@ ol {
   font-style: normal;
 }
 
-.header-mail {
+.mail {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.mail:hover,
+.mail:focus {
   color: #404bbf;
 }
 
-.header-telefon {
+.telefon {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
@@ -64,17 +64,15 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.header-telefon:hover,
-.header-telefon:focus {
+.telefon:hover,
+.telefon:focus {
   color: #404bbf;
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
   margin: -1px;
-  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
@@ -132,7 +130,7 @@ ol {
   background-color: #f4f4fd;
 }
 
-.team-title {
+.team-tittle {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -142,17 +140,19 @@ ol {
   text-transform: capitalize;
 }
 
-.team-title-name {
+.team-name {
   color: #2e2f42;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
+}
+.team-menu {
+  background-color: #fff;
 }
 
-.team-title-text {
+.team-text {
   color: #434455;
   text-align: center;
   line-height: 1.5;
